@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<link rel="stylesheet" href="css/style.css"></link>
+
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+		<script type="text/javascript" src="js/script.js"></script>
+		
+	</head>
+	<body>
+		<div id="wrapper">
+
+			<div id="ga-header" class="clearfix">
+				<a target="_blank" href="https://generalassemb.ly/learn/web-development" title="Learn Web Development">
+					<img width="25" src="GA_cog_300px.png" />
+				</a>
+			</div>
+
+			<div id="content">
+				<nav id="header">
+					<h1 id="logo"><a href="index.html">Sabr..<span>Sabr..</span></a></h1>
+					<ul>
+						<li>
+							<a href="index.html">Bosh menyu</a>
+						</li>
+						<li>
+							<a href="#">So'zlashuv</a>
+						</li>
+						<li class="last">
+							<a href="contact.html">Bog'lanish</a>
+						</li>
+					</ul>
+				</nav>
+				<div id="main">
+					<h2>Biz haqimizda malumot oling. <span>.</span></h2>
+					<h3>Uzinggiz haqinggizda malumot kiriting..?</h3>
+
+					<form id="contact-form" method="post" action="contact.html">
+						<div class="input text half-line first-name">
+							<label for="first-name">Isminggiz..:</label>
+							<input id="first-name" name="first-name" type="text" />
+						</div>
+						<div class="input text half-line last-name">
+							<label for="last-name">Familangiz...</label>
+							<input id="last-name" name="last-name" type="text" />
+						</div>
+						<div class="input text email">
+							<label for="email">Email Manzil*</label>
+							<input id="email" name="email" type="text" />
+						</div>
+						<div class="input text phone">
+							<label for="phone">Telefon nomer</label>
+							<input id="phone" name="phone" type="number" />
+						</div>
+						<div class="input checkboxes neighborhoods">
+							<label>Nimalar bilan shug'illanasiz*</label>
+							
+							<div class="checkbox-container">
+								<input name="neighborhoods[]" type="checkbox" id="n-1" value="Murray Hill"/>
+								<label for="n-1">Tadbirkorlik</label>
+							</div>
+							<div class="checkbox-container">
+								<input name="neighborhoods[]" type="checkbox" id="n-2" value="East Village"/>
+								<label for="n-2">O'qiyman</label>
+							</div>
+							<div class="checkbox-container">
+								<input name="neighborhoods[]" type="checkbox" id="n-3" value="Tribeca"/>
+								<label for="n-3">Chorvachilik</label>
+							</div>
+							<div class="checkbox-container">
+								<input name="neighborhoods[]" type="checkbox" id="n-4" value="Stuyvesant Town"/>
+								<label for="n-4">Sportga</label>
+							</div>
+							<div class="checkbox-container">
+								<input name="neighborhoods[]" type="checkbox" id="n-5" value="Hell's Kitchen"/>
+								<label for="n-5">Fermer</label>
+							</div>
+							<div class="checkbox-container">
+								<input name="neighborhoods[]" type="checkbox" id="n-6" value="Financial District"/>
+								<label for="n-6">Texnikaga</label>
+							</div>
+						</div>
+
+						<div class="input textarea comments">
+							<label for="comments">Fikringgizni bildiring</label>
+							<textarea id="comments" name="comments" placeholder="Biz va oilamiz haqida o'z fikringgizni bildiring."></textarea>
+						</div>
+
+						<input type="submit" id="submit-button" value="Topshirish" />
+					</form> 
+				</div>
+			</div> 
+		</div> 
+	</body>
+</html>
